@@ -1,2 +1,6 @@
-# require docker role from galaxy
+# require docker, ntp, epel, clamav
+# role from galaxy
 - src: geerlingguy.docker
+- src: geerlingguy.ntp
+- src: geerlingguy.epel
+- src: geerlingguy.clamav
