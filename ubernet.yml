@@ -7,7 +7,7 @@
       yum: name='*' state=latest
 
   roles:
-    - geerlingguy.epel
+    - geerlingguy.repo-epel
     - geerlingguy.ntp
     - geerlingguy.docker
     - geerlingguy.clamav
