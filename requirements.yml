@@ -1,0 +1,2 @@
+# require docker role from galaxy
+- src: geerlingguy.docker

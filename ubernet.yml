@@ -2,5 +2,7 @@
 ---
 - hosts: servers
   name: Server Base Config
-  tasks:
-  -
+  roles:
+    - geerlingguy.docker
+  #tasks:
+  #-
