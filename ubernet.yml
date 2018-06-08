@@ -4,5 +4,8 @@
   name: Server Base Config
   roles:
     - geerlingguy.docker
-  #tasks:
-  #-
+  tasks:
+  - name: update yum packages to latest
+    yum:
+      name: '*'
+      state: latest
